@@ -19,13 +19,7 @@ npm i zenload -g
 
 ## How to use?
 
-With env vairable `ZENLOAD`:
-
-```sh
-NODE_OPTIONS='"--loader zenload"' ZENLOAD='c4,mock-import' npm test
-```
-
-Or configuration file `.zenload.json`:
+Using configuration file `.zenload.json`:
 
 ```js
 [
