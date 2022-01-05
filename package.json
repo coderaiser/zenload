@@ -27,7 +27,9 @@
     "watch:tape": "madrun watch:tape",
     "watch:coverage": "madrun watch:coverage"
   },
-  "dependencies": {},
+  "dependencies": {
+    "try-to-catch": "^3.0.0"
+  },
   "engines": {
     "node": ">=14"
   },

@@ -6,6 +6,7 @@ import {
 const NODE_OPTIONS = `'--no-warnings --loader ./lib/zenload.js'`;
 const testEnv = {
     NODE_OPTIONS,
+    MOCK_IMPORT_NESTED: 1,
 };
 
 export default {
@@ -25,4 +26,3 @@ export default {
     
     'watch:coverage': async () => await run('watcher', await cutEnv('coverage'), testEnv),
 };
-
