@@ -1,3 +1,9 @@
+2022.01.05, v1.1.0
+
+feature:
+- zenload: add support of installed modules
+
+
 2022.01.05, v1.0.1
 
 fix:
