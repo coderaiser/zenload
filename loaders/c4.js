@@ -1,5 +1,5 @@
-export function load(url, context) {
-    const {source} = context;
+export function load(url, context, defaultLoad) {
+    const {source} = defaultLoad(url, context, defaultLoad);
     
     return {
         format: 'module',

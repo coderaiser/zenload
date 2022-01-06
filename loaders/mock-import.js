@@ -1,8 +1,8 @@
-export function load(url, context) {
-    const {source} = context;
+export function load(url, context, defaultLoad) {
+    const {source, format} = defaultLoad(url, context, defaultLoad);
     
     return {
-        format: 'module',
+        format,
         source: `${source} ☘️ `,
     };
 }
