@@ -6,12 +6,22 @@ import {
 const NODE_OPTIONS = `'--no-warnings --loader ./lib/zenload.js'`;
 const testEnv = {
     NODE_OPTIONS,
-    MOCK_IMPORT_NESTED: 1,
+    ZENLOAD_LOADERS: [
+        'escover',
+        'mock-import',
+    ].join(','),
+};
+
+const coverEnv = {
+    NODE_OPTIONS,
+    ZENLOAD_LOADERS: [
+        'mock-import',
+    ].join(','),
 };
 
 export default {
     'test': () => [testEnv, `tape 'test/**/*.js' 'lib/**/*.spec.js'`],
-    'coverage': async () => [testEnv, `c8 --exclude="lib/**/{fixture,*.spec.js}" ${await cutEnv('test')}`],
+    'coverage': async () => [coverEnv, `c8 --exclude="lib/**/{fixture,*.spec.js}" ${await cutEnv('test')}`],
     'lint': () => 'putout .',
     'fresh:lint': () => run('lint', '--fresh'),
     'lint:fresh': () => run('lint', '--fresh'),

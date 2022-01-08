@@ -1,6 +1,0 @@
-[
-    "./loaders/comment.js",
-    "./loaders/c4.js",
-    "./loaders/mock-import.js",
-    "mock-import"
-]
