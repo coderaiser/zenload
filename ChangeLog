@@ -1,3 +1,10 @@
+2022.01.08, v1.4.0
+
+feature:
+- zenload: add support of env variable ZENLOAD
+- zenload: add support of env variables
+
+
 2022.01.08, v1.3.0
 
 feature:
