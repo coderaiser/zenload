@@ -28,6 +28,12 @@ Using configuration file `.zenload.json`:
 ];
 ```
 
+or using Environment Variable:
+
+```sh
+ZENLOAD=escover,mock-import node --loader zenload example.js
+```
+
 ## How it works?
 
 It uses [loader hooks](https://nodejs.org/docs/latest/api/esm.html#loaders).

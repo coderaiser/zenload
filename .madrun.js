@@ -6,7 +6,7 @@ import {
 const NODE_OPTIONS = `'--no-warnings --loader ./lib/zenload.js'`;
 const testEnv = {
     NODE_OPTIONS,
-    ZENLOAD_LOADERS: [
+    ZENLOAD: [
         'escover',
         'mock-import',
     ].join(','),
@@ -14,7 +14,7 @@ const testEnv = {
 
 const coverEnv = {
     NODE_OPTIONS,
-    ZENLOAD_LOADERS: [
+    ZENLOAD: [
         'mock-import',
     ].join(','),
 };
