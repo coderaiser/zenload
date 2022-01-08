@@ -1,3 +1,9 @@
+2022.01.08, v1.3.0
+
+feature:
+- zenload: add support of node v14
+
+
 2022.01.06, v1.2.0
 
 feature:
