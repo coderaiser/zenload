@@ -5,6 +5,7 @@
   "description": "Load couple loaders and apply transform one-by-one",
   "main": "lib/zenload.js",
   "type": "module",
+  "commitType": "colon",
   "repository": {
     "type": "git",
     "url": "git://github.com/coderaiser/zenload.git"
