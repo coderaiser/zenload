@@ -17,6 +17,7 @@
   "scripts": {
     "test": "madrun test",
     "coverage": "madrun coverage",
+    "coverage:old": "madrun coverage:old",
     "lint": "madrun lint",
     "fresh:lint": "madrun fresh:lint",
     "lint:fresh": "madrun lint:fresh",
