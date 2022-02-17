@@ -45,7 +45,7 @@
     "madrun": "^9.0.0",
     "mock-import": "^2.0.0",
     "montag": "^1.2.1",
-    "putout": "^24.3.0",
+    "putout": "^25.0.0",
     "supertape": "^6.0.5"
   }
 }
