@@ -1,3 +1,15 @@
+2022.02.17, v2.0.0
+
+feature:
+- (package) escover v2.0.0
+- (package) supertape v7.0.1
+- (package) putout v25.0.0
+- (package) madrun v9.0.0
+- zenload: drop support of node < 16
+- (package) putout v24.3.0
+- (package) eslint-plugin-putout v13.7.0
+
+
 2022.01.08, v1.4.0
 
 feature:
