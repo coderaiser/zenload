@@ -21,7 +21,7 @@ npm i zenload -g
 
 Using configuration file `.zenload.json`:
 
-```js
+```json
 [
     "mock-import",
     "c4",
