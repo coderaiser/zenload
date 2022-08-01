@@ -24,7 +24,7 @@ Using configuration file `.zenload.json`:
 ```json
 [
     "escover",
-    "mock-import",
+    "mock-import"
 ]
 ```
 
