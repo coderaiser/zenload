@@ -23,9 +23,9 @@ Using configuration file `.zenload.json`:
 
 ```json
 [
-    "mock-import",
     "escover",
-];
+    "mock-import",
+]
 ```
 
 or using Environment Variable:
@@ -39,6 +39,17 @@ ZENLOAD=escover,mock-import node --loader zenload example.js
 It uses [loader hooks](https://nodejs.org/docs/latest/api/esm.html#loaders).
 Loads all loaders then apply them one-by-one. Source is passed overriding `defaultLoad`, so nothing should be done
 on loaders side. The only rule is get the source using provided by `Node.js` team method: `defaultLoad`.
+
+This is the same as:
+
+```js
+node \
+  --loader mock-import \
+  --loader escover \
+  example.js
+```
+
+That'a right, order should be backward, just like in a functions call chain.
 
 ## Supported Loaders
 
