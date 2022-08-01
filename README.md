@@ -42,7 +42,7 @@ on loaders side. The only rule is get the source using provided by `Node.js` tea
 
 This is the same as:
 
-```js
+```sh
 node \
   --loader mock-import \
   --loader escover \
