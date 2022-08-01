@@ -24,7 +24,7 @@ Using configuration file `.zenload.json`:
 ```json
 [
     "mock-import",
-    "c4",
+    "escover",
 ];
 ```
 
@@ -43,7 +43,7 @@ on loaders side. The only rule is get the source using provided by `Node.js` tea
 ## Supported Loaders
 
 - ✅ [mock-import](https://github.com/coderaiser/mock-import);
-- ✅ [c4](https://github.com/coderaiser/c4);
+- ✅ [escover](https://github.com/coderaiser/escover);
 - ✅ [putout](https://github.com/coderaiser/putout);
 
 ## License
