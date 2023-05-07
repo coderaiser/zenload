@@ -6,3 +6,4 @@ export function load(url, context, defaultLoad) {
         source: `${source} 🧨`,
     };
 }
+

@@ -4,6 +4,7 @@ import {
 } from 'madrun';
 
 const NODE_OPTIONS = `'--no-warnings --loader ./lib/zenload.js'`;
+
 const testEnv = {
     NODE_OPTIONS,
     ZENLOAD: [
