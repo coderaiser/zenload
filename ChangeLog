@@ -1,3 +1,8 @@
+2023.05.30, v2.2.0
+
+feature:
+- 5e68967 zenload: improve support of node v20
+
 2023.05.07, v2.1.0
 
 feature:
