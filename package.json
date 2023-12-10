@@ -42,7 +42,7 @@
     "eslint-plugin-n": "^15.2.4",
     "eslint-plugin-putout": "^17.5.1",
     "madrun": "^10.0.0",
-    "mock-import": "^3.0.3",
+    "mock-import": "^3.4.1",
     "montag": "^1.2.1",
     "putout": "^34.0.0",
     "supertape": "^8.3.0"
