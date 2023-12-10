@@ -1,6 +1,6 @@
 {
   "name": "zenload",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Load couple loaders and apply transform one-by-one",
   "main": "lib/zenload.js",
@@ -44,7 +44,7 @@
     "madrun": "^9.0.0",
     "mock-import": "^3.0.3",
     "montag": "^1.2.1",
-    "putout": "^29.0.1",
+    "putout": "^34.0.0",
     "supertape": "^8.3.0"
   }
 }
