@@ -37,7 +37,7 @@
   "license": "MIT",
   "devDependencies": {
     "c8": "^7.8.0",
-    "escover": "^3.2.2",
+    "escover": "^4.0.0",
     "eslint": "^8.3.0",
     "eslint-plugin-n": "^15.2.4",
     "eslint-plugin-putout": "^17.5.1",
